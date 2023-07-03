@@ -17,4 +17,7 @@ use App\Http\Controllers\UserController;
 //     return view('welcome');
 // });
 
-Route::get('/dony', [UserController::class, 'index']);
+// /dony ini sebagai url yang di akses
+// UserController controller yang ingin digunakan
+// index ini diambil dari dalam controller example public function index
+Route::get('/dony', [UserController::class, 'dony']);
