@@ -12,6 +12,8 @@ class Product extends Model
     protected $fillable = [
         'name',
         'type_id',
+        'description',
+        'image',
     ];
 
     public function types()
